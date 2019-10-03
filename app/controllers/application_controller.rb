@@ -9,7 +9,7 @@ class ApplicationController < Sinatra::Base
   	erb :index
   end
 
-  get "/ingo" do
+  get "/info" do
     "Testing the info"
 
   end
