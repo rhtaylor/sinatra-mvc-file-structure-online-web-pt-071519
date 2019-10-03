@@ -10,7 +10,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/info" do
-    "Testing the info"
+    erb :info
 
   end
 end
